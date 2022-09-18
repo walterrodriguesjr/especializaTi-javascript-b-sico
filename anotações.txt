@@ -1,0 +1,64 @@
+conceitos 
+
+1A-apresentação curso de javascript 
+	-explicação sobre o conteúdo e o andamento do curso 
+	
+2A-o que é javascript 
+	-client-side, ou seja, roda no lado do cliente 
+	-interage com HTML e CSS 
+	-faz requisições para o lado do servidor 
+	
+3A-ferramentas curso de javascript 
+	-vscode
+	-navagador chrome 
+	-JSfiddle 
+	-documentação JS MDN (ótima)
+ 	
+prático 
+
+1B-primeiro programa e conceitos do javascript 
+	-realizado as ações de alert e console.log 
+
+
+2B-comentários de código em javascript 
+	-shift + alt + a 
+	-//
+	-/* */
+
+3B-variáveis em javascript 
+	-permite a reutilização de dados, serve como um recipiente 
+	
+4B-concatenação no javascript 
+	-usando '' e + : console.log('Meu nome é ' + name + ' e tenho ' + age + ' anos de idade');
+
+operadores matemáticos 
+
+1C-operadores aritméticos javascript 
+	-são os operadores para operação matemática: + - * / % 
+	
+2C-ordem de prioridade operadores aritméticos javascript 
+	-se não houver parentes,a divisão a multiplicação tera precedencia, se for preciso alterar, deve se usar os parentes. 
+	-se não ouver parentes e nem divisão nem multiplicação, ele executará da esquerda para a direita 
+
+3C-operadores aritméticos incremento e decremento javascript 
+	-é o elemento de ++ ou -- antes ou depois da variável, dependendo da ordem, altera o resultado final 
+	
+4C-operadores aritméticos resto da divisão javascript 
+	- % 
+
+5C-operadores de atribuição javascript 
+	- += / -= / *= / /= 
+
+6C-operadores de comparação javascript 
+	- == igual 
+	- === igual em valor e tipo 
+	- != diferente / !== diferente em tipo 
+	- > / < / >= / <= 
+
+7C=operadores lógicos javascript 
+	-&& / || / !
+
+operadores condicionais 
+
+
+	
