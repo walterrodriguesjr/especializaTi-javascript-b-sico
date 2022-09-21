@@ -60,5 +60,109 @@ operadores matemáticos
 
 operadores condicionais 
 
+1D-javascript operadores condicionais IF e ELSE 
+	-teste de condicionais com if e elese 
 
+2D-javascript operador condicional ternário 
+	-possibilita fazer condicionais em menos linhas 
 	
+3D-javascript operador condicional switch 
+	-torna-se mais viável quando são varias opções em uma variável 
+
+funções 
+
+1E - funções no javascript 
+	-realizado teste com uma função básica 
+	
+2E-funções com parâmetros no javascript 
+	-exemplo de uso de passagem de parametro para a função 
+
+3E-Javascript funções com parametros opcionais 
+	- feito os testes 
+
+4E-funções recursivas no javascript
+	-faz um loop usando if (não recomendado)
+
+5E-javascript funções aninhadas 
+	-feito os testes 
+
+arrays 
+
+1F-introdução a arrays no javascript 
+	-o array variavel com vários tipos de valores dentro dele 
+		var names = ['Walter', 'Renan','Charlene'];
+
+2F-arrays javascript(push, unshift, pop, shift)
+	-push - adiciona um item no final do array 
+	-unshift - adiciona um item no início do array 
+	-pop - remove o último elemento do array
+	-shift - remove o primeiro elemento do array 
+
+3F-arrays javascript(join, reverse,sort)
+	-join - junta os itens do array, usando como separadar dos itens, o elemento 
+		que for passado como parâmetro 
+	-reverse - le o array ao contrário 
+	-sort - exibe o array de forma ordenada 
+	
+4F-arrays javascript(indexOf, lastIndexOf, findIndex)
+	-indexOf - pesquisa dentro do array o item passado como parametro na função, 
+		se houver, retorna o número da posição 
+	-lastIndexOf - retorna o último item encontrado, com as caracteriscas do parametro 
+	
+5F-arrays javascript(concate, slice, toString)
+	-concat- devolve um copia concatenada no mesmo array, 2 arrays 
+	-slice - determina de onde, até onde, será exibido o array 
+	-toString - converte itens para tipo string 
+
+6F-arrays javascript(map, filter) 
+	-a função map() serve para mapear determinado array, para que em seguida, 
+	possa ser usado os métodos de alteração no array, aguarda função de callBack e parametro
+		var names = ['Walter', 'Renan','Charlene']; 
+			var result = names.map(function(item) {
+				return item.toUpperCase();
+				})
+
+				console.log(result);
+
+7F-arrays javascript(every, some)
+	-every -  auxilia com condicições, por exemplo, se todos os itens 
+		de umn array for menor que 10, retorna true 
+	-some - semelhante ao every, porem, se algum dos itens do array atender 
+		a determinada condição, retorna true ou false 
+
+8F-arrays javascript(reduce, reduceRight) 
+	-reduce - dúvidas 
+
+objetos 
+1G-objetos no javascript 
+		sempre entre chaves 
+	-é possível inserir dentro, uma propriedade que recebe uma função 
+		ex: 	
+			var pessoa = {
+				nome: 'Walter',
+ 			    sobreNome: 'Rodrigues',
+                fullName: function(){
+  	            	return this.nome + ' ' + this.sobreNome
+  },
+};
+			console.log(pessoa.fullName());
+2G-objetos em javascript-parte 2 
+	-continuação 
+
+loops de repetição 
+1H-loop FOR javascript 
+	-teste na prática (para)
+
+2H-loop WHILE javascript 
+	-(enquanto) 
+
+3H-loop DO WHILE javascript 
+	-mesmo que não atenda a condição, ele executa uma vez o loop 
+
+4H-loop forEach javascript 
+	-testes usando o forEach (melhor maneira de trabalhar com arrays e objetos) 
+
+armazenamento de dados 
+1G-
+	
+
